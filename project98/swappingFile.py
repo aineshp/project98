@@ -9,6 +9,4 @@ def swapFileData(file1,file2,a,b):
     a.write(data_b) 
     b=open(file2,'w')
     b.write(data_a)
-
-    
-   
+swapFileData(file1,file2,a,b)  
