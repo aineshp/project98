@@ -1,5 +1,5 @@
 file1  = input('Enter file name: ')
-a=open("sampletext1.txt", 'r') 
+a=open(file1, 'r') 
 data_a=a.read()     
 file2 = input('Enter second file name: ')
 b= open(file2,'r')
